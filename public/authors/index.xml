@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Universal</title>
+    <title>Authors on Aaron Website</title>
     <link>http://localhost:1313/authors/</link>
-    <description>Recent content in Authors on Universal</description>
+    <description>Recent content in Authors on Aaron Website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 15:22:09 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>John Doe</title>
-      <link>http://localhost:1313/authors/john-doe/</link>
+      <title>Aaron</title>
+      <link>http://localhost:1313/authors/aaron/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/john-doe/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jane Doe</title>
-      <link>http://localhost:1313/authors/jane-doe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/authors/jane-doe/</guid>
+      <guid>http://localhost:1313/authors/aaron/</guid>
       <description></description>
     </item>
   </channel>
