@@ -2,6 +2,7 @@
 title = 'My First Post'
 date = 2025-06-05T15:22:09-05:00
 draft = false
+banner = "default-blog.png"
 authors = ["Aaron"]
 +++
 # Hello World!
