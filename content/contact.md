@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 id = "contact"
+draft = "true"
 +++
 
 # We are here to help you
