@@ -47,6 +47,11 @@ pluralizelisttitles = false
     identifier = "menu.blog"
     url        = "/blog/"
     weight     = 5
+[[menu.main]]
+    name       = "Contact"
+    identifier = "menu.contact"
+    url        = "/contact/"
+    weight     = 6
 
 
 
