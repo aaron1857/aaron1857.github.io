@@ -144,7 +144,7 @@ pluralizelisttitles = false
     logo_text = "Home"
 
     logo = "img/logo.webp"
-    logo_small = "img/logo-small.png"
+    logo_small = "img/logo.webp"
     contact_url = "/contact"
     address = """<p class="text-uppercase">
         <a href="mailto:email101@duck.com">Email me!</a>
