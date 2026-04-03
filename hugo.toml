@@ -77,7 +77,7 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 3
     name = "Email"
-    url = "mailto:email101@duck.com"
+    url = "mailto:aaron.menezes@mailbox.org"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
@@ -151,7 +151,7 @@ pluralizelisttitles = false
     logo_small = "img/logo.webp"
     contact_url = "/contact"
     address = """<p class="text-uppercase">
-        <a href="mailto:email101@duck.com">Email me!</a>
+        <a href="mailto:aaron.menezes@mailbox.org">Email me!</a>
         
       </p>
       """
