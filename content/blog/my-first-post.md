@@ -9,4 +9,4 @@ authors = ["Aaron"]
 This is my first post in the website.
 
 ## Update
-Checking to see how update works
+Checking to see how update works.
