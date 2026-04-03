@@ -12,6 +12,10 @@ summaryLength = 70
 # not pluralize title pages by default
 pluralizelisttitles = false
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [services]
     # Enable comments by entering your Disqus shortname
     [services.disqus]
