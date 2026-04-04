@@ -1,0 +1,58 @@
+{{ if isset .Site.Params "projects" }}
+{{ if .Site.Params.projects.enable }}
+<section class="bar background-white no-mb">
+    <div class="container">
+
+        <div class="col-md-12">
+            <div class="heading text-center">
+                <h2>{{ .Site.Params.projects.title | markdownify }}</h2>
+            </div>
+
+            {{ if .Site.Params.projects.subtitle }}
+            <p class="lead">
+              {{ .Site.Params.projects.subtitle | markdownify }}
+            </p>
+            {{ end }}
+
+            <div class="row">
+                {{ $projects := .Paginate (where site.RegularPages "Type" "eq" "projects") }}
+                {{ range first 4 $projects.Pages }}
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-image-text blog">
+                        <div class="top">
+                            <div class="image" style="overflow:hidden">
+                                {{ if isset .Params "banner" }}
+                                <img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" />
+                                {{ else }}
+                                <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="" />
+                                {{ end }}
+                            </div>
+                            <div class="bg"></div>
+                            <div class="text">
+                                <p class="buttons">
+                                    <a href="{{ .Permalink }}" class="btn btn-template-transparent-primary"><i class="fas fa-link"></i> {{ i18n "readMore" }}</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                            {{ if not .Site.Params.projects.hide_summary }}
+                            <p class="intro">{{ .Summary }}</p>
+                            {{ end }}
+                            {{ if .Site.Params.projects.show_read_more }}
+                            <p class="read-more">
+                              <a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "readMore" }}</a>
+                            </p>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

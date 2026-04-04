@@ -34,23 +34,14 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "Blog"
-    identifier = "section.ap-blog"
-    url        = "/blog/"
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Blog Listing Big"
-    url        = "/blog/"
-    weight     = 1
-    parent     = "section.ap-blog"
-
-[[menu.main]]
-    name       = "Blog"
     identifier = "menu.blog"
     url        = "/blog/"
     weight     = 5
+[[menu.main]]
+    name       = "Projects"
+    identifier = "menu.projects"
+    url        = "/projects/"
+    weight     = 1
 [[menu.main]]
     name       = "Contact"
     identifier = "menu.contact"
@@ -71,7 +62,7 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 2
     name = "Mastodon"
-    url = "https://fosstodon.org/@enthusiast101"
+    url = "https://ieji.de/@enthusiast101"
     pre = "<i class='fab fa-2x fa-mastodon'></i>"
 
 [[menu.topbar]]
@@ -84,7 +75,7 @@ pluralizelisttitles = false
     viewMorePostLink = "/blog/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
+    mainSections = ["blog", "projects"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
@@ -158,6 +149,7 @@ pluralizelisttitles = false
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:contentbasename/"
+    projects = "/projects/:contentbasename"
 
 # Enable or disable top bar with social icons
 [params.topbar]
@@ -229,6 +221,13 @@ pluralizelisttitles = false
     title = "From my blog"
     subtitle = "Just some stuff wrote when I felt like it own time. There is no specific rhyme or reason for what I write."
     hide_summary = false
+
+[params.projects]
+    enable = true
+    title = "My Projects"
+    subtitle = "A collection of projects I've worked on."
+    hide_summary = false
+    show_read_more = true
 
 [params.footer.recent_posts]
     enable = true
