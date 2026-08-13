@@ -14,6 +14,8 @@ I simply wanted a private data storage solution where I could store a lot of dat
 
 Though I still sync my data to my laptop, so if something happens to my server, I still have the files at the very least.
 
+hello
+
 ## Setup
 
 ### Hardware
